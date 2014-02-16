@@ -15,7 +15,7 @@ define('__DEBUG__', '1');
 define('__BUTTON__', true);
 
 //¬алюта мерчанта
-define('__CURRENCY__', "UAH");
+define('__CURRENCY__', "RUB");
 
 //язык страницы оплаты
 define('__LANGUAGE__', "RU");
