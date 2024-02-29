@@ -1,10 +1,11 @@
-#(For PayU Ukraine and Russian ONLY)
-------
+# «Твои платежи», модуль для CMS Melbis
 
-#Модуль для CMS Melbis
-======
+![](https://repository-images.githubusercontent.com/638835276/ff494b04-d65b-4843-8759-e85c689a7e80)
 
-#Установка
+[НКО «Твои Платежи»](https://YPMN.ru/ "Платёжная система для сайтов, платформ и приложений") - платёжная система для сайтов, платформ, игр и приложений.
+
+
+## Установка
 -------------
 1). Разместите папку payu в каталог /pay_mod/ <br>
 2). Откройте клиентское приложение Melbis Shop. Зайдите в раздел Настройки - Способы оплаты и создайте новый вариант оплаты  <br>
@@ -13,7 +14,7 @@
 
 ```HTML
 <P align=center><STRONG><FONT color=#ff0000>Внимание!</FONT></STRONG> </P>
-<P align=center><STRONG>Транзакция платежа осуществляется непосредственно на защищенном сайте компании PayU.</STRONG></P><BR>
+<P align=center><STRONG>Транзакция платежа осуществляется непосредственно на защищенном сайте компании «Твои Платежи».</STRONG></P><BR>
 <P align=center><INPUT onclick="document.location='./pay_go.php?type=payu&amp;{PHPSESSID}'" type=button value="Оплатить"></P>
 ```
 
@@ -25,7 +26,7 @@
 >	define('__SECRETKEY__', 'SECURE KEY'); # секретный ключ
 >
 >define('__LUURL__', ''); # ссылка для LiveUpdate. Для Украинских мерчантов оставлять пустым. <br>
->						 # Для мерчантов из России : https://secure.payu.ru/order/lu.php
+>						 # Для мерчантов из России : https://secure.ypmn.ru/order/lu.php
 >
 >define('__DEBUG__', '1'); # Режим тестирования.  После тестирования - обязательно выключить (поставить 0)
 >
